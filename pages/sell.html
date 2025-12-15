@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>COLLEX | Campus Marketplace</title>
+  <title>Sell | COLLEX</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -13,6 +13,7 @@
         extend: {
           colors: {
             'collex-dark': '#0f172a',
+            'collex-darker': '#020617',
             'collex-teal': '#14b8a6'
           }
         }
@@ -20,20 +21,27 @@
     }
   </script>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body class="bg-white dark:bg-collex-dark transition-colors duration-300">
+<body class="bg-gray-50 dark:bg-collex-darker transition-colors duration-300">
 
+  <!-- NAVBAR -->
   <div id="navbar"></div>
+
+  <!-- MAIN -->
   <main></main>
+
+  <!-- FOOTER -->
   <div id="footer"></div>
 
-  <script src="components/navbar.js"></script>
-  <script src="components/footer.js"></script>
+  <!-- COMPONENTS -->
+  <script src="../components/navbar.js"></script>
+  <script src="../components/footer.js"></script>
 
-  <script src="js/home.js"></script>
-  <script src="js/main.js"></script>
+  <!-- PAGE LOGIC -->
+  <script src="../js/sell.js"></script>
+  <script src="../js/main.js"></script>
 
 </body>
 </html>

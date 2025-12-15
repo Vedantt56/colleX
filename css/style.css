@@ -1,0 +1,6 @@
+html.dark {
+  background-color: #0f172a;
+}
+body {
+  padding-top: 64px; /* navbar height */
+}

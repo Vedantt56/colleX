@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explore | COLLEX</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'collex-dark': '#0f172a',
+            'collex-darker': '#020617',
+            'collex-teal': '#14b8a6'
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-white dark:bg-collex-darker transition-colors duration-300">
+
+  <!-- NAVBAR -->
+  <div id="navbar"></div>
+
+  <!-- MAIN -->
+  <main></main>
+
+  <!-- FOOTER -->
+  <div id="footer"></div>
+
+  <!-- COMPONENTS -->
+  <script src="../components/navbar.js"></script>
+  <script src="../components/footer.js"></script>
+  <script src="../components/productCard.js"></script>
+
+  <!-- PAGE LOGIC -->
+  <script src="../js/explore.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
